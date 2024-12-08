@@ -1,0 +1,28 @@
+﻿if upvote and down vote will be added 
+<table border="1" style="border:solid;">
+    <tr style="height:300px;border:solid;">
+        <td onclick="goToQuestion()" style="border:solid;width:1300px;cursor: pointer;">
+            <h1 style="font-size:75px;margin-block-start:0;margin-block-end:20px;">How to open a new python project in PyCharm?</h1>
+            <h1 style="margin-block-start:20px;">I am new to using PyCharm I used the default IDE for the last year.I am new to using PyCharm I used the default IDE for the last year.I am new to using PyCharm I used the default IDE for the last year.I am new to using PyCharm I used the default IDE for the last year.</h1>
+        </td>
+        <td style="font-size:50px;border:solid;position: relative;">
+            <h6 style="margin-block-end:0;margin-block-start:0;">#Python #gameDevlopment #Java #C#</h6><br />
+            <h1 style="text-align:center">9</h1>
+         <div style="margin-left:47px;text-align:center;position:absolute;bottom:0;">            
+            <button type="button"><img src="../images/upvote-gray.png" style="width:64px;height:64px;"alt="upvote"></button>
+            <button type="button"><img src="../images/downvote-gray.png" style="width:64px;height:64px;"alt="downvote" /></button>
+         </div>
+         </td>
+    </tr>
+</table>
+
+just to be safe
+            <tr style="height:300px;border:solid;">
+                <td onclick="relocate2(1)" style="cursor: pointer;border:solid;width:1300px;">
+                    <h1 style="width:1200px;font-size:65px;margin-block-start:0;margin-block-end:20px;overflow-wrap: break-word;">How to open a new python project in PyCharm?</h1>
+                    <h1 class="description" style="" >PyCharm yCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeayCharm I used the default IDE for the last yeaI used the default IDE for the last year.I am new to using PyCharm I used the default IDE for the last year.I am new to using PyCharm I used the default IDE</h1>
+                </td>
+                <td style="font-size:50px;border:solid;position: relative;">
+                    <h6 style="margin-block-end:0;margin-block-start:0;">#Python #gameDevlopment #Java #C#</h6><br />
+                </td>
+            </tr>

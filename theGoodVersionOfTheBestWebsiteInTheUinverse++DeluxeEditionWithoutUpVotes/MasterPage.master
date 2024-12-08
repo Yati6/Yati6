@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script>
+        function image() {
+            window.location.href = "profilePic.aspx";
+        }
+    </script>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body style="margin: 0;" class="bodyMasterPage">
+    <table class="table">
+        <tr>
+            
+            <td>
+                <div style="float: left;height: 180px;margin-top:2px;">
+                    <img alt="logo" style="height: 180px;width:auto;" src="../images/Logo.png" />
+                </div>
+                <div style="float: left;">
+                    <h1 style="margin-block-start: 0.5em;margin-block-end: 0.5em;" class="liketext">Proquestion</h1>
+                </div>
+            </td>
+            <td>
+                <h2 style="margin-block-start: 0.5em;margin-block-end: 0.5em;" >
+                    <a class="pageLink" href="../web%20pages/main.aspx">Main</a>
+                </h2>
+            </td>
+            <td>
+                <h2 style="margin-block-start: 0.5em;margin-block-end: 0.5em;">
+                    <a class="pageLink" href="gallery.aspx">gallery</a>
+                </h2>
+            </td>
+            <%=linkLog %>
+            <%=managerPage %>
+            <td style="color: black;text-decoration:underline;">
+                <h2><%=Application["msg"] %></h2>
+            </td>
+            <td>
+                <h2 style="margin-block-start: 0.5em;margin-block-end: 0.5em;">
+                    <%=user %>
+                </h2>
+            </td>
+            <td style="height:180px;float:right;">
+                 <%=userPic %>
+            </td>
+        </tr>
+    </table>
+    <div class="div">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div class="fotter">
+       made by Itay Levy • for help contact itay3.8.2010@gmail.com
+    </div>
+</body>
+</html>

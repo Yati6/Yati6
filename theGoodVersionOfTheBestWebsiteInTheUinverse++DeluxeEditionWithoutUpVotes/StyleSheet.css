@@ -1,0 +1,296 @@
+﻿.bodyMasterPage {
+    margin: 0;
+    background-color: #94d1df;
+}
+.table {
+    background-color: aliceblue;
+    margin: 0;
+    width: 100%;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom-width: 5px;
+    border-color: black;
+    border-bottom: solid;
+}
+.div {
+    margin:5px;
+    margin-bottom:0;
+}
+.SignIn {
+    text-align: center;
+    font-size: 50px;
+    width: 700px;
+    margin: auto;
+}
+input[type=text]{
+    height:28px;
+    width:auto
+}
+input[type=password]{
+    height: 28px;
+    width: auto
+}
+.gender {
+    text-align: left;
+}
+input[type=radio] {
+    border: 5px;
+    width: 25px;
+    height: 25px;
+}
+div1 {
+    float: left;
+    margin-left: 60px;
+    text-align: left;
+}
+.select  {
+    border: 10px;
+    width: 300px;
+    height: 50px;
+    font-size:40px;
+}
+div2 {
+    float: left;
+    margin-left: 60px;
+    text-align: left;
+}
+input[type=checkbox] {
+    width: 25px;
+    height: 25px;
+}
+.resetAndSumbit {
+    width: 200px;
+    height: 80px;
+    border-block-width: 3px;
+    font-size: 40px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+.pageLink {
+    cursor: pointer;
+    text-decoration: auto;
+    color: black;
+}
+h2{
+    margin:0px;
+}
+.table-container {
+    max-height: 200px;
+    margin: 0;
+}
+.BigTitle{
+    text-align:center;
+    font-size:150px;
+}
+p{
+    font-size:40px;
+    width:1600px;
+}
+.pictureInGallery {
+    width: 30%;
+    height: auto;
+    margin: 20px;
+    border: 8px solid transparent;
+    border-radius: 8px;
+    background: linear-gradient(to right, aqua, lightgreen) padding-box, linear-gradient(to right, aqua, lightgreen) border-box;
+}
+.fotter {
+    margin: 0;
+    margin-top: 6px;
+    color: gray;
+    text-align: center;
+    background-color: white;
+}
+.manage {
+    border: 1px;
+    padding: 5px;
+    border: solid;
+    border-color: #000000;
+}
+.description {
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 1200px;
+    white-space: normal;
+    overflow-wrap:break-word;
+    text-overflow: ellipsis;
+    margin-bottom: 0px;
+    height: 150px;
+    overflow: hidden;
+    margin-block-start: 20px;
+}
+.tags {
+    -webkit-line-clamp: 4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow-wrap:break-word;
+    overflow:hidden;
+    width: 274px;
+    height: 150px;
+    margin-block-start: 0;
+}
+.mangerpageButoons {
+    appearance: button;
+    backface-visibility: hidden;
+    background-color: #405cf5;
+    border-radius: 6px;
+    border-width: 0;
+    box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+    font-size: 80px;
+    height: 150px;
+    line-height: 1.15;
+    margin: 12px 0 0;
+    outline: none;
+    overflow: hidden;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    transform: translateZ(0);
+    transition: all .2s,box-shadow .08s ease-in;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 350px;
+}
+
+.mangerpageButoons:disabled {
+        cursor: default;
+}
+
+.mangerpageButoons:focus {
+        box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+.TableDsecription {
+    height:194px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    width: 850px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 12px; 
+}
+::-webkit-scrollbar-track {
+    background: #86bac5;
+}
+::-webkit-scrollbar-thumb {
+    background: aqua;
+    border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.TableQuestion {
+    height: 194px;
+    max-height: 194px;
+    display: table-cell;
+    width: 500px;
+    max-width: 500px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+.tableTags {
+    height: 194px;
+    width: 580px;
+    max-width:580px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.tablemaker {
+    display: table-cell;
+    width: 235px;
+    max-width: 235px;
+    white-space: normal;
+    overflow-wrap: break-word;
+    overflow: auto;
+}
+.topBorder {
+    border-top: solid;
+    border-top-width: 5px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.button-19 {
+    width: 400px;
+    font-size: 50px;
+    appearance: button;
+    background-color: #1899D6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: din-round,sans-serif;
+    font-weight: 700;
+    letter-spacing: .8px;
+    line-height: 20px;
+    outline: none;
+    overflow: visible;
+    padding: 13px 16px;
+    text-align: center;
+    text-transform: uppercase;
+    touch-action: manipulation;
+    transform: translateZ(0);
+    transition: filter .2s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.button-19:after {
+    background-clip: padding-box;
+    background-color: #1CB0F6;
+    border: solid transparent;
+    border-radius: 16px;
+    border-width: 0 0 4px;
+    bottom: -4px;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.button-19:focus {
+    user-select: auto;
+}
+
+.button-19:hover:not(:disabled) {
+    filter: brightness(1.1);
+    -webkit-filter: brightness(1.1);
+}
+
+.button-19:disabled {
+    cursor: auto;
+}
+
+.button-19:active {
+    border-width: 4px 0 0;
+    background: none;
+}
+.passwordAndName {
+    width: 500px;
+    max-width: 500px;
+    white-space: normal;
+    overflow-wrap: break-word;
+}
